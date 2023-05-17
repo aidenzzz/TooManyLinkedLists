@@ -1,5 +1,3 @@
-use std::mem;
-
 pub struct IntoIter<T>(List<T>);
 pub struct Iter<'a, T> {
 	next: Option<&'a Node<T>>,
